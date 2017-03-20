@@ -1,0 +1,23 @@
+{
+    "name": "flsouto/htcklist",
+    "description": "Generates a list of checkboxes for multi selection.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Fabio Souto",
+            "email": "fabiolimasouto@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "keywords"  : ["forms","html","fields","widgets","choices","options","multichoice"],
+
+    "require": {
+        "flsouto/htchoice": "^1.0"
+    },
+    "autoload" :{
+    	"psr-0" : {
+    		"FlSouto\\" : "."
+    	}
+    }
+
+}
